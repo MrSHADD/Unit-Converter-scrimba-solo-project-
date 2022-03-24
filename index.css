@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  height: 50vh;
+  width: 100%;
+  background: linear-gradient(246.26deg, #ED4880 0%, #F38B17 100%);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+#heading {
+  font-family: "Inter";
+  font-style: oblique;
+
+  font-size: 5vw;
+  line-height: 186%;
+  text-align: center;
+  letter-spacing: -0.05em;
+  color: #ffffff;
+}
+/*Input field styling starts*/
+#inputnum {
+  font-size: 9vw;
+  font-family: "Inter";
+  font-style: normal;
+  line-height: 80%;
+
+  color: #ffffff;
+  background: none;
+  width: 100%;
+  text-align: center;
+  font-weight: 800;
+  border: none;
+  outline: none;
+}
+::placeholder {
+  
+  color: white;
+  opacity: 1; 
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+/*Input field styling ends*/
+.results {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.results h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 2.2vw;
+  color: #1a1921;
+}
+
+.results p {
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 2.2vw;
+  color: #4e4e4e;
+}
